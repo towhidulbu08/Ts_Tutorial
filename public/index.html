@@ -7,8 +7,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>welcome</h1>
-
+    <h1>User Registration</h1>
+    <form class="form-submit">
+      <div>
+        <div>
+          <label for="name">Name:</label> <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="" id="email" />
+        </div>
+        <div>
+          <label for="country">Country:</label>
+          <select name="country" id="country">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+          </select>
+        </div>
+        <div>
+          <label for="feedback">FeedBack:</label>
+          <textarea cols="25" rows="4" name="feedback" id="feedback"></textarea>
+        </div>
+      </div>
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
     <script src="../dist/index.js"></script>
   </body>
 </html>
